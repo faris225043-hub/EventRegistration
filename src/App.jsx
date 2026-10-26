@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import "./App.css";
 
-const API_URL = "http://localhost:5000/api/events";
+const API_URL = "https://eventregistration-api.onrender.com/api/events";
 
 const emptyForm = {
   name: "",
